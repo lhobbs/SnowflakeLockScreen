@@ -12,7 +12,7 @@ It provides lockscreen in API 11 or above.
 
 
 Locked
-
+![alt tag](https://github.com/lhobbs/SnowflakeLockScreen/screenshot_locked.jpg)
 
 
 
