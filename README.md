@@ -6,23 +6,13 @@ Features:
 - Lockscreen over the screen
 - Hardware home button disabled
 - On-going notification to prevent app being killed by OS
+- Quick launch to Messaging, Camera and Snapchat
 
-It provides lockscreen in API 8 or above.
-
-Initial
-
-![Alt text](http://thumbnails114.imagebam.com/42319/f1a34d423182524.jpg "")
+It provides lockscreen in API 11 or above.
 
 
 Locked
 
-![Alt text](http://thumbnails114.imagebam.com/42319/422e11423182518.jpg "")
-
-
-
-Unlocked
-
-![Alt text](http://thumbnails114.imagebam.com/42319/f1a34d423182524.jpg "")
 
 
 
