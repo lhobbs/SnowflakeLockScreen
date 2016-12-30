@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mountains"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+
+    <ImageButton
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/btnUnlock"
+        android:src="@drawable/snowflake"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/btnMessages"
+        android:src="@drawable/snowflake_orange"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/gallery" />
+
+    <ImageButton
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/btnSnap"
+        android:src="@drawable/snowflake_yellow"
+        android:background="@null"
+        android:contentDescription="SnapChat button"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btnMessages" />
+
+    <ImageButton
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/btnCamera"
+        android:src="@drawable/snowflake_grey"
+        android:background="@null"
+        android:contentDescription="Camera button"
+        android:layout_alignTop="@+id/btnMessages"
+        android:layout_toRightOf="@+id/btnMessages" />
+
+    <Gallery
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gallery"
+        android:layout_alignTop="@+id/btnUnlock"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
